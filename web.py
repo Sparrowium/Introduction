@@ -13,4 +13,4 @@ with st.container():
     with left_col:
         st.write("What I do")
         st.write("##")
-        st.write("On my github pages I am developing softwares and webpages")
+        st.write("On my github pages I am developing softwares and firmwares for computer peripherals!")
