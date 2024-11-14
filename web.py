@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 # --- PAGE SETUP ---
 about_page = st.Page(
     page = "pages/about_me.py",

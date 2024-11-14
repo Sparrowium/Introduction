@@ -1,0 +1,12 @@
+[theme]
+# Background color for the main content area
+backgroundColor = "#262626"
+
+# Background for the sidebar and the secondary content area
+secondaryBackgroundColor = "#404040"
+
+# Color used for the text
+textColor = "#ffffff"
+
+[client]
+toolbarMode = "minimal"

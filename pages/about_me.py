@@ -1,11 +1,6 @@
 import streamlit as st
 
 
-@st.dialog("Contact Me")
-def show_contact_form():
-    st.text_input("First Name")
-
-
 ### --- HEADER SECTION ---
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 
@@ -18,8 +13,16 @@ with col2:
         "A student, trying to learn about Software, Firmware, and Hardware. So he can do some cool projects."
     )
 
-    if st.button("📧 Contact Me"):
-        show_contact_form()
+# --- CONTACT SECTION ---
+st.write("\n")
+st.subheader("Contact", anchor=False)
+st.write(
+    """
+    Email: sparrowium@gmail.com\n
+    LinkedIn: www.linkedin.com/in/minh-pham-37b47b28b\n
+    Github: https://github.com/Sparrowium
+    """
+)
 
 # --- EDUCATION SECTION ---
 st.write("\n")
