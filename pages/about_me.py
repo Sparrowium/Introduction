@@ -18,7 +18,6 @@ st.write("\n")
 st.subheader("Contact", anchor=False)
 st.write(
     """
-    Email: sparrowium@gmail.com\n
     LinkedIn: www.linkedin.com/in/minh-pham-37b47b28b\n
     Github: https://github.com/Sparrowium
     """
